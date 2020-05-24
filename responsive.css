@@ -21,6 +21,7 @@
     
     .p-image,.profile,.skills {
         padding: 50px 0;
+        border: none;
     }
     
     .profile h4 {
