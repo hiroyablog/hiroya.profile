@@ -1,0 +1,179 @@
+@media all and (min-width:720px) {
+    
+    .main-image {
+        height: 500px;
+    }
+    
+    .main-image h2 {
+        padding: 130px 0 0 30px;
+        font-size: 50px;   
+    }
+    
+    .main-image h3 {
+        padding-left: 30px;
+        font-size: 35px;
+    }
+    
+    .main-image p {
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    
+    .p-image,.profile,.skills {
+        padding: 50px 0;
+    }
+    
+    .profile h4 {
+        font-size: 32px;
+    }
+    
+    .profile h5 {
+        font-size: 25px;
+    }
+    
+    .profile p {
+        font-size: 19px;     
+    }
+
+    .skills h4 {
+        margin-bottom: 25px;
+    }
+    
+    .football p {
+        font-size: 18px;
+    }
+
+    .portfolio {
+        padding: 40px 0;
+    }
+    
+    .portfolio a {
+        font-size: 25px;
+    }
+
+    .service h4 {
+        font-size: 28px;
+    }
+    
+    .service i {
+        padding-bottom: 25px;
+    }
+    
+    .book-list li {
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .form-icon i {
+        font-size: 50px;
+    }
+
+    .form-icon p {
+        padding-top: 5px;
+    }
+    
+    footer {
+        background-color: rgb(2, 65, 2);
+        height: 80px;
+    }
+    
+    footer p {
+        color: white;
+        padding: 20px 0 0 10px;
+    }
+    
+}
+
+@media all and (min-width:1120px) {
+    
+    .container {
+        width: 100%;
+        max-width: 1120px;
+    }
+    
+    .main-image {
+        height: 600px;
+    }
+    
+    .main-image h2 {
+        padding: 150px 0 0 40px;
+        font-size: 65px;   
+    }
+    
+    .main-image h3 {
+        padding-left: 40px;
+        margin-top: 50px;
+        font-size: 45px;
+    }
+    
+    .main-image p {
+        padding-left: 40px;
+        font-size: 23px;
+    }
+    
+    .profile h4 {
+        font-size: 32px;
+    }
+    
+    .profile h5 {
+        margin-bottom: 20px;
+    }
+    
+    .profile p {
+        font-size: 20px;
+    }
+    
+    .skills h4 {
+        font-size: 35px;
+    }
+    
+    .football h3 {
+        padding-bottom: 30px;
+        font-size: 40px;
+    }
+    
+    .player-career,.coach-career {
+        padding: 30px 0;
+    }
+    
+    .portfolios {
+        padding: 60px 0;
+    }
+    
+    .portfolio {
+        padding: 30px 0;
+    }
+    
+    .portfolio a {
+        font-size: 30px;
+    }
+    
+    .service {
+        padding-bottom: 40px;
+    }
+    
+    .service i {
+        padding-bottom: 25px;
+    }
+    
+    .book {
+        padding: 50px 0;
+    }
+    
+    .book h3 {
+        padding-bottom: 40px;
+    }
+    
+    .book-list li {
+        font-size: 30px;
+    }
+    
+    .direct {
+        font-size: 35px;
+    }
+    
+    .form-icon i {
+        font-size: 60px;
+    }
+
+}
