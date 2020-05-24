@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-image {
+    background-image: url(IMG_3981.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+
+.main-image h2 {
+    padding: 100px 0 0 20px;
+    font-size: 40px;   
+}
+
+.main-image h3 {
+    padding-left: 20px;
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.main-image p {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-icon {
+    padding: 20px 0 5px 0;
+    text-align: center;
+    background-color: #c0c0c0;
+}
+
+.main-icon p {
+    font-weight: bold;
+}
+
+.profiles {
+    padding: 50px 0;
+}
+
+.p-image,.profile,.skills {
+    padding: 40px 0;
+    color: #484848;
+}
+
+.p-image {
+    width: 100%;
+    border-bottom: 1px solid rgb(2, 65, 2);
+}
+
+.profile {
+    border-bottom: 1px solid rgb(2, 65, 2);
+}
+
+.profile h4 {
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.profile h5 {
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.profile p {
+    font-size: 16px;
+}
+
+.skill-all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skills h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.football {
+    padding: 50px 0;
+    color: #484848;
+}
+
+.football h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.football p {
+    text-align: center;
+}
+
+.player-career,.coach-career {
+    padding: 20px 0;
+}
+
+.portfolios {
+    padding: 50px 0;
+}
+
+.portfolio {
+    padding: 20px 0;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.portfolio a {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.programming p {
+    text-align: center;
+    color: #484848;
+    font-size: 25px;
+}
+
+.work {
+    padding: 50px 0;
+}
+
+.service {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.service h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.service i {
+    padding-bottom: 15px;
+}
+
+.book {
+    padding: 50px;
+}
+
+.book h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-list li {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    line-height: 2;
+    list-style-type: none;
+}
+
+.social {
+    padding: 50px 0;
+}
+
+.direct {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-icon {
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.form-icon i {
+    font-size: 35px;
+    color: #484848;
+}
+
+footer {
+    background-color: rgb(2, 65, 2);
+    height: 80px;
+}
+
+footer p {
+    color: white;
+    padding: 20px 0 0 10px;
+}
