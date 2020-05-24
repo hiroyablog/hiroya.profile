@@ -24,6 +24,14 @@
         border: none;
     }
     
+    .p-image {
+        border-bottom: none;
+    }
+
+    .profile {
+        border-bottom: none;
+    }
+    
     .profile h4 {
         font-size: 32px;
     }
