@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="ja">
     <head>
@@ -11,159 +10,137 @@
         <link rel="stylesheet" type="text/css" href="responsive.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
         <title>ヒロヤのプロフィール</title>
     </head>
     <body>
         <header>
-
-        </header>
-        <div class="main-image">
             <div class="container">
-                <h2>You'll Never Walk Alone.</h2>
-                <h3>Hiroya Kageyama</h3>
-                <p>しなやかに。ブレずに。楽しもう。</p>
-            </div>
-        </div>
-        <div class="about">
-            <div class="main-icon">
-                <i class="fas fa-user-circle fa-4x"></i>
-                <p>About Me</p>
-            </div>
-            <div class="container profiles">
-                <div class="row">
-                    <img class="p-image col-lg-6" src="IMG_5921 (1).jpeg">
-                    <div class="profile col-lg-6">
-                        <h4>影山　尋哉</h4>
-                        <h5>Hiroya Kageyama</h5>
-                        <p>出身：東京都</p>
-                        <p>生年月日：1999年12月19日生まれ</p>
-                        <p>学歴：東海大学体育学部 生涯スポーツ学科　現在3年</p>
-                        <p>高校までの14年間をサッカーに捧げて生きていたが、高校終了と同時に燃え尽きる。</p>
-                        <p>大学入学後遊び呆けたが、サッカーへの愛が捨てきれず指導者の道へ。</p><br>
-                        <p>趣味・特技：読書　筋トレ　プログラミング　サッカー</p><br>
-                        <p>モットー：「自分の生きたいように生きる」</p>
-                        <p>全ては人の為すもの。1人でも多くの方の力になりたい。</p><br>
-                    </div>
-                    <div class="skills col-lg-12">
-                        <h4>Skill</h4>
-                        <div class="skill-all">
-                            <div class="skill">
-                                <i class="fab fa-html5 fa-3x"></i>
-                                <p>HTML</p>
-                            </div>
-                            <div class="skill">
-                                <i class="fab fa-css3-alt fa-3x"></i>
-                                <p>CSS</p>
-                            </div>
-                            <div class="skill">
-                                <i class="fas fa-bold fa-3x"></i>
-                                <p>Bootstrap</p>
-                            </div>
+                <div class="header-right">
+                    <div class="menu-icon">
+                        <button class="btn dropdown-toggle" type="button" id="headerDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-bars fa-2x"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#about">about</a>
+                            <a class="dropdown-item" href="#programming">portfolio</a>
+                            <a class="dropdown-item" href="#services">service</a>
+                            <a class="dropdown-item" href="#contact-formr">contact</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </header>
+        <div class="main-image">
+            <div class="container">
+                <h2>You'll Never Walk Alone.</h2>
+                <h3>Hiroya's portfolio</h3>
+            </div>
         </div>
-        <div class="footballer">
+        <div id="about">
             <div class="main-icon">
-                <i class="fas fa-futbol fa-4x"></i>
-                <p>About Football</p>
+                <i class="fas fa-user-circle fa-4x"></i>
+                <p>About Me</p>
             </div>
-            <div class="container football">
-                <div class="player-career">
-                    <h3>選手経歴</h3>
-                    <p>明和蹴球倶楽部</p>
-                    <p>↓</p>
-                    <p>FCトリプレッタジュニアユース</p>
-                    <p>↓</p>
-                    <p>東海大学付属高輪台高等学校サッカー部</p>
+            <div class="container">
+                <div class="profiles">
+                    <img class="p-image" src="IMG_5921 (1).jpeg">
+                    <div class="profile">                            <h4>影山　尋哉</h4>
+                        <h5>Hiroya Kageyama</h5>
+                        <p>出身：東京都</p>
+                        <p>生年月日：1999年12月19日</p>
+                        <p>学歴：東海大学体育学部 生涯スポーツ学科　現在3年</p>
+                        <p>趣味・特技：読書　筋トレ　サッカー</p><br>
+                        <p>モットー：「自分の生きたいように生きる」</p>
+                        <p>全ては人の為すもの。1人でも多くの方の力になりたい。</p><br>
+                    </div>
                 </div>
-                <div class="coach-career">
-                    <h3>指導経歴</h3>
-                    <p>FCトリプレッタジュニアユース　2018年11月〜2020年3月</p>
-                    <p>↓</p>
-                    <p>東海大学付属高輪台高等学校サッカー部 2020年4月〜</p>
-                </div>  
+            </div>        
+        </div>
+        <div class="skills">
+            <div class="main-icon">
+                <i class="fas fa-pencil-alt fa-4x"></i>
+                <p>Skills</p>
+            </div>
+            <div class="container">
+                <div class="skill-all">
+                    <div class="skill">
+                        <i class="fab fa-html5 fa-5x"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt fa-5x"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill">
+                        <img src="bootstrap-brands.svg" alt="" title="Bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="programming">
+        <div id="programming">
             <div class="main-icon">
                 <i class="fas fa-desktop fa-4x"></i>
                 <p>About Portfolio</p>
             </div>
-            <div class="container portfolios">
-                <div class="portfolio">
-                    <img src="スクリーンショット 2020-05-22 16.55.22 2.jpeg">
-                    <a href="https://hiroyablog.github.io/hiroya2.github.io/">Airbnb模写1</a>
-                </div>
-                <div class="portfolio">
-                    <img src="スクリーンショット 2020-05-22 16.55.40 2.jpeg">
-                    <a href="https://hiroyablog.github.io/hiroya.github.io/">Airbnb模写2</a>
+            <div class="container">
+                <div class="portfolios">
+                    <div class="portfolio">
+                        <a href="https://hiroyablog.github.io/hiroya2.github.io/"><img src="スクリーンショット 2020-05-22 16.55.22 2.jpeg">Airbnb模写1</a>
+                    </div>
+                    <div class="portfolio">
+                        <a href="https://hiroyablog.github.io/hiroya.github.io/"><img src="スクリーンショット 2020-05-22 16.55.40 2.jpeg">Airbnb模写2</a>
+                    </div>
                 </div>
             </div>
-            <p>随時追加予定</p>
         </div>
-        <div class="services">
+        <div id="services">
             <div class="main-icon">
                 <i class="fas fa-hands-helping fa-4x"></i>
                 <p>Services</p>
             </div>
-            <div class="container work">
-                <div class="service">
-                    <h4>Webサイト制作</h4>
-                    <i class="fas fa-sticky-note fa-5x"></i>
-                    <P>LP、コーポレートサイトの制作をお受けします。お客様のご要望に添えるよう、精一杯作業します。</P>
+            <div class="container">
+                <div class="work row">
+                    <div class="service col-md-6">
+                        <h4>Webサイト制作</h4>
+                        <i class="fas fa-sticky-note fa-5x"></i>
+                        <P>LP、コーポレートサイトの制作をお受けします。お客様のご要望に添えるよう、精一杯作業します。</P>
+                    </div>
+                    <div class="service col-md-6">
+                        <h4>レスポンシブ化</h4>
+                        <i class="fas fa-mobile-alt fa-5x"></i>
+                        <P>様々な端末で閲覧しやすいようなコーディングをいたします。全てのデバイスからアクセスを得ることで、様々な人にサイトを届けます。</P>
+                    </div>
                 </div>
-                <div class="service">
-                    <h4>レスポンシブ化</h4>
-                    <i class="fas fa-mobile-alt fa-5x"></i>
-                    <P>様々な端末で閲覧しやすいようなコーディングをいたします。全てのデバイスからアクセスを得ることで、様々な人にサイトを届けます。</P>
-                </div>
-            </div>
+            </div>   
         </div>
-        <div class="books">
-            <div class="main-icon">
-                <i class="fas fa-book-open fa-4x"></i>
-                <p>Favorite Books</p>
-            </div>
-            <div class="container book">
-                <h3>義務教育で教科書にすべき本</h3>
-                <ul class="book-list">
-                    <li><a href="#">7つの習慣</a></li>
-                    <li><a href="#">嫌われる勇気</a></li>
-                    <li><a href="#">中央学院高校の教えすぎない育成哲学</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="contact-form">
+        <div id="contact-form">
             <div class="main-icon">
                 <i class="far fa-envelope fa-4x"></i>
                 <p>Contact</p>
             </div>
-            <div class="container social">
-                <div class="row">
-                    <div class="form-icon col-xs-2">
-                        <a href="https://www.instagram.com/hiro_futbolista"><i class="fab fa-instagram fa-2x"></i></a>
-                        <p>Instagram</p>
+            <div class="container">
+                <div class="social">
+                    <div class="row">
+                        <div class="form-icon col-xs-2">
+                            <a href="https://www.instagram.com/hiro_futbolista"><i class="fab fa-instagram fa-2x"></i><br>Instagram</a>
+                        </div>
+                        <div class="form-icon col-xs-2">
+                            <a href="https://twitter.com/mellamohiroya"><i class="fab fa-twitter fa-2x"></i><br>Twitter<a>
+                        </div>
+                        <div class="form-icon col-xs-2">
+                            <a href="https://note.com/futbolista_hiro"><i class="fas fa-blog fa-2x"></i><br>Note</a>
+                        </div>
+                        <div class="form-icon col-xs-2">
+                            <a href="https://www.facebook.com/profile.php?id=100009149307390"><i class="fab fa-facebook fa-2x"></i><br>Facebook</a>
+                        </div>
+                        <div class="form-icon col-xs-2">
+                            <a href="https://www.youtube.com/channel/UCqYWdMh_UJDRLVfTfrhfS-g"><i class="fab fa-youtube fa-2x"></i><br>YouTube</a>
+                        </div>
                     </div>
-                    <div class="form-icon col-xs-2">
-                        <a href="https://twitter.com/mellamohiroya"><i class="fab fa-twitter fa-2x"></i><a>
-                        <p>Twitter</p>
-                    </div>
-                    <div class="form-icon col-xs-2">
-                        <a href="https://note.com/futbolista_hiro"><i class="fas fa-blog fa-2x"></i></a>
-                        <p>Note</p>
-                    </div>
-                    <div class="form-icon col-xs-2">
-                        <a href="https://www.facebook.com/profile.php?id=100009149307390"><i class="fab fa-facebook fa-2x"></i></a>
-                        <p>Facebook</p>
-                    </div>
-                    <div class="form-icon col-xs-2">
-                        <a href="https://www.youtube.com/channel/UCqYWdMh_UJDRLVfTfrhfS-g"><i class="fab fa-youtube fa-2x"></i></a>
-                        <p>YouTube</p>
-                    </div>
+                    <p class="direct">ご連絡はDMまで</p>
                 </div>
-                <p class="direct">ご連絡はDMまで</p>
             </div>
         </div>
         <footer>
@@ -174,5 +151,6 @@
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="techAcademy.js"></script>
     </body>
 </html>
