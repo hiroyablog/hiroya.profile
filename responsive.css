@@ -1,188 +1,117 @@
-@media all and (min-width:720px) {
+@media all and (min-width:768px) {
     
     .main-image {
-        height: 500px;
+        height: 650px;
     }
     
     .main-image h2 {
-        padding: 130px 0 0 30px;
-        font-size: 50px;   
+        padding: 300px 0 0 20px;
+        font-size: 45px;   
     }
     
     .main-image h3 {
-        padding-left: 30px;
-        font-size: 35px;
+        font-size: 30px;
     }
-    
-    .main-image p {
-        padding-left: 30px;
-        font-size: 20px;
+
+    .profiles {
+        display: flex;
     }
-    
-    .p-image,.profile,.skills {
-        padding: 50px 0;
-        border: none;
+
+    .p-image,.profile {
+        padding: 40px 0;
+        color: #484848;
+        padding-bottom: 50px;
+        width: 50%;
     }
     
     .p-image {
-        border-bottom: none;
+        position: static !important;
+        object-fit: cover!important;
+        vertical-align: bottom!important;
+        margin-right: 10px;    
     }
-
+    
     .profile {
-        border-bottom: none;
+        margin-left: 10px;
     }
-    
-    .profile h4 {
-        font-size: 32px;
-    }
-    
-    .profile h5 {
-        font-size: 25px;
-    }
-    
+        
     .profile p {
-        font-size: 19px;     
+        font-size: 16px;
     }
 
-    .skills h4 {
-        margin-bottom: 25px;
-    }
-    
-    .football p {
-        font-size: 18px;
-    }
-
-    .portfolio {
-        padding: 40px 0;
-    }
-    
-    .portfolio a {
-        font-size: 25px;
-    }
-
-    .service h4 {
-        font-size: 28px;
+    .work {
+        padding: 50px 0;
     }
     
     .service i {
-        padding-bottom: 25px;
-    }
-    
-    .book-list li {
-        text-align: center;
-        font-size: 25px;
+        padding-bottom: 20px;
     }
     
     .form-icon i {
         font-size: 50px;
     }
-
-    .form-icon p {
-        padding-top: 5px;
+    
+    .form-icon a {
+        font-size: 20px;
     }
     
     footer {
-        background-color: rgb(2, 65, 2);
-        height: 80px;
+        height: 100px;
     }
     
-    footer p {
-        color: white;
-        padding: 20px 0 0 10px;
-    }
     
 }
 
-@media all and (min-width:1120px) {
+@media all and (min-width:992px) {
     
-    .container {
-        width: 100%;
-        max-width: 1120px;
-    }
-    
+
     .main-image {
-        height: 600px;
+        height: 650px;
     }
     
     .main-image h2 {
-        padding: 150px 0 0 40px;
-        font-size: 65px;   
+        padding: 250px 0 0 20px;
+        font-size: 50px;   
     }
     
     .main-image h3 {
-        padding-left: 40px;
-        margin-top: 50px;
-        font-size: 45px;
-    }
-    
-    .main-image p {
-        padding-left: 40px;
-        font-size: 23px;
+        font-size: 40px;
+        opacity: 0.9;
     }
     
     .profile h4 {
         font-size: 32px;
     }
     
-    .profile h5 {
-        margin-bottom: 20px;
-    }
-    
     .profile p {
-        font-size: 20px;
+        font-size: 18px;
     }
     
-    .skills h4 {
-        font-size: 35px;
+    .work {
+        padding: 70px 0;
     }
-    
-    .football h3 {
-        padding-bottom: 30px;
-        font-size: 40px;
-    }
-    
-    .player-career,.coach-career {
-        padding: 30px 0;
-    }
-    
+
     .portfolios {
-        padding: 60px 0;
+        display: flex;
     }
-    
+
     .portfolio {
-        padding: 30px 0;
+        width: 50%;
+        margin: 0 10px;
+        
     }
-    
-    .portfolio a {
-        font-size: 30px;
-    }
-    
-    .service {
-        padding-bottom: 40px;
+
+    .service h4 {
+        padding-bottom: 26px;
     }
     
     .service i {
-        padding-bottom: 25px;
+        padding-bottom: 20px;
     }
     
-    .book {
-        padding: 50px 0;
+    .service p {
+        font-size: 18px;
+        padding: 0 50px;
     }
     
-    .book h3 {
-        padding-bottom: 40px;
-    }
-    
-    .book-list li {
-        font-size: 30px;
-    }
-    
-    .direct {
-        font-size: 35px;
-    }
-    
-    .form-icon i {
-        font-size: 60px;
-    }
-
 }
